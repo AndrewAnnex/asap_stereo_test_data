@@ -1,0 +1,12 @@
+LEAPSECONDS_KERNEL   = /tmp/test/isisdata/base/kernels/lsk/naif0012.tls
+SPK_KERNEL           = mar097.bsp
+  SOURCE_SPK_KERNEL  = /tmp/test/isisdata/base/kernels/spk/mar097.bsp
+    INCLUDE_COMMENTS = yes
+    BODIES           = 10, 4, 499
+    BEGIN_TIME       = 20 DEC 2006 00:00:00.000
+    END_TIME         = 24 DEC 2006 00:00:00.000
+  SOURCE_SPK_KERNEL  = /tmp/test/isisdata/base/kernels/spk/mar097.bsp
+    INCLUDE_COMMENTS = yes
+    BODIES           = 10, 4, 499
+    BEGIN_TIME       = 30 OCT 2008 00:00:00.000
+    END_TIME         = 05 NOV 2008 00:00:00.000
